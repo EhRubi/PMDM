@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_Cuentos</string>
+    <string name="txtIntro">Introduce tu nombre</string>
+    <string name="editTextIntro">Introduce tu nombre aquí</string>
+    <string name="botonIntro">Siguiente</string>
+    <string name="txtTematica">Selecciona una temática</string>
+    <string name="txtCastillo">Castillo \n encantado</string>
+    <string name="txtCementerio">Cementerio \n maldito</string>
+    <string name="txtPueblo">Pueblo \n fantasma</string>
+</resources>

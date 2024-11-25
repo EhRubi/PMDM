@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:layout_gravity="top"
+        android:src="@drawable/halloween" />
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtIntro"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextIntro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/editTextIntro"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/grey"
+        />
+
+    <Button
+        android:id="@+id/buttonIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonIntro"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="455dp"
+        />
+</FrameLayout>

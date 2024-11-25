@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UD05_1_JustIt</string>
+    <string name="type">¿Qué tipo de comida quieres?</string>
+    <string name="send">enviar</string>
+    <string name="alert_select_type"> Select a type</string>
+    <string name="burguer_selected">Has seleccionado la hamburguesa</string>
+
+
+
+</resources>

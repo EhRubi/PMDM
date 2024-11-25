@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UD01_2_ListAnimals</string>
+    <string name="selectAnimal">Select an animal</string>
+    <string name="send">Send</string>
+    <string-array name="listAnimals">
+        <item>Dogs</item>
+        <item>Cat</item>
+        <item>Duck</item>
+    </string-array>
+</resources>
