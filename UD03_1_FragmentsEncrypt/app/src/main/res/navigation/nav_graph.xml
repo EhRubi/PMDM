@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weolcomeFrangment">
+
+    <fragment
+        android:id="@+id/weolcomeFrangment"
+        android:name="com.example.ud03_1_fragmentsencrypt.WelcomeFrangment"
+        android:label="WeolcomeFrangment" >
+        <action
+            android:id="@+id/action_welcomeFrangment_to_messageFragment"
+            app:destination="@id/messageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.ud03_1_fragmentsencrypt.MessageFragment"
+        android:label="MessageFragment" >
+        <action
+            android:id="@+id/action_messageFragment_to_encryptFragment"
+            app:destination="@id/encryptFragment"
+            app:popUpTo="@id/weolcomeFrangment" />
+    </fragment>
+    <fragment
+        android:id="@+id/encryptFragment"
+        android:name="com.example.ud03_1_fragmentsencrypt.EncryptFragment"
+        android:label="EncryptFragment" >
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
+</navigation>
