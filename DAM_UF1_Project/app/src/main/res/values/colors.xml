@@ -2,5 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="redgreen">#00FFFFFF</color>
+    <color name="red">#9B0000</color>
+    <color name="redlight">#FF0000</color>
+    <color name="noColor">#00000000</color>
 </resources>

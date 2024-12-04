@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
 
+    <fragment
+        android:id="@+id/chooseFragment"
+        android:name="com.example.uf1_proyecto.ChooseFragment"
+        android:label="fragment_choose"
+        tools:layout="@layout/fragment_choose" >
+        <action
+            android:id="@+id/action_chooseFragment_to_randomMovieFragment2"
+            app:destination="@id/randomMovieFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_helpFragment2"
+            app:destination="@id/helpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/randomMovieFragment"
+        android:name="com.example.uf1_proyecto.RandomMovieFragment"
+        android:label="fragment_random_movie"
+        tools:layout="@layout/fragment_random_movie" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.uf1_proyecto.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.uf1_proyecto.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
 </navigation>

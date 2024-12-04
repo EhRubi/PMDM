@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomMovieFragment"
+    android:background="@color/black"
+    >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:background="@color/red"
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+    <ImageView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_marginBottom="335dp"
+        android:background="@color/noColor"
+        android:src="@drawable/texto"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="275dp"
+        />
+
+
+</FrameLayout>

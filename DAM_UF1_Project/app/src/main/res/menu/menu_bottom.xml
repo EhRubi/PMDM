@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inboxFragment"
+        android:icon="@drawable/home"
+        android:title="@string/genero"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/sentFragment"
+        android:icon="@drawable/eleccion"
+        android:title="@string/sent"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/helpFragment"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/help"
+        app:showAsAction="always"/>
+</menu>
