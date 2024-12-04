@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_chooseFragment_to_helpFragment2"
             app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_startFragment"
+            app:destination="@id/startFragment" />
     </fragment>
 
     <fragment
@@ -37,5 +40,9 @@
         android:id="@+id/helpFragment"
         android:name="com.example.uf1_proyecto.HelpFragment"
         android:label="fragment_help"
-        tools:layout="@layout/fragment_help" />
+        tools:layout="@layout/fragment_help" >
+        <action
+            android:id="@+id/action_helpFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
 </navigation>

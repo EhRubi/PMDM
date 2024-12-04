@@ -5,19 +5,19 @@
     <item
         android:id="@+id/inboxFragment"
         android:icon="@drawable/home"
-        android:title="@string/genero"
+        android:title=""
         app:showAsAction="always"/>
 
     <item
         android:id="@+id/sentFragment"
         android:icon="@drawable/eleccion"
-        android:title="@string/sent"
+        android:title=""
         app:showAsAction="always"/>
 
 
     <item
         android:id="@+id/helpFragment"
+        android:title=""
         android:icon="@android:drawable/ic_menu_help"
-        android:title="@string/help"
         app:showAsAction="always"/>
 </menu>

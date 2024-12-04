@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.setPadding
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
