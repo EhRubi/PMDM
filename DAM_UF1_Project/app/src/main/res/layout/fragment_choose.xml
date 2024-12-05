@@ -21,14 +21,6 @@
             android:layout_height="?attr/actionBarSize"
             />
 
-        <!-- Contenedor para los fragmentos dinámicos -->
-        <FrameLayout
-            android:id="@+id/fragment_container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:layout_marginBottom="56dp" />
-
         <ImageView
             android:id="@+id/name"
             android:layout_width="wrap_content"
@@ -41,6 +33,14 @@
             android:textSize="50dp"
             android:textStyle="bold"
             />
+
+        <!-- Contenedor para los fragmentos dinámicos -->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:layout_marginTop="?attr/actionBarSize" />
 
 
         <ImageView
@@ -242,15 +242,26 @@
             android:layout_marginLeft="90dp"
             />
 
+        <Button
+            android:id="@+id/btnRandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:backgroundTint="@color/red"
+            android:textSize="20dp"
+            android:text="@string/generoRand"
+            />
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/botton_navigation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
             android:background="@color/black"
             app:itemIconSize="42dp"
-            app:itemIconTint="@color/selector_bottom_nav_item"
-            app:itemTextColor="@color/selector_bottom_nav_item"
+            android:layout_gravity="bottom"
+            app:itemIconTint="@color/redlight"
+            app:itemTextColor="@color/redlight"
             app:menu="@menu/menu_bottom" />
-    </FrameLayout>
+        </FrameLayout>
 </ScrollView>

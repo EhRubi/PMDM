@@ -16,6 +16,7 @@
     <string name="accion">Acción</string>
     <string name="cienciaFiccion">Ciencia Ficción</string>
     <string name="genero">Género</string>
+    <string name="generoRand">Género Aleatorio</string>
     <string name="phone">638 25 12 93</string>
     <string name="email">algoflix@gmail.com</string>
     <string name="twitter">@AlgoFlix</string>

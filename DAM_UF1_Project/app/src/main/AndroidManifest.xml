@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:enableOnBackInvokedCallback="true"
         android:allowBackup="true"
@@ -13,6 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UF1_Proyecto"
         tools:targetApi="tiramisu">
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
